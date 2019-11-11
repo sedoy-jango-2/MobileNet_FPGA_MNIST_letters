@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 11 13:46:00 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : cam_proj
+Top-level Entity Name : cam_proj_top
+Family : Cyclone IV E
+Total logic elements : 6,313
+    Total combinational functions : 5,576
+    Dedicated logic registers : 2,428
+Total registers : 2428
+Total pins : 87
+Total virtual pins : 0
+Total memory bits : 370,095
+Embedded Multiplier 9-bit elements : 25
+Total PLLs : 2

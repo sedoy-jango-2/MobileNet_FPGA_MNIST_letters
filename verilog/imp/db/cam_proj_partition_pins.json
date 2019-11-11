@@ -1,0 +1,305 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "res_cam",
+					"strict" : false
+				},
+				{
+					"name" : "on_off_cam",
+					"strict" : false
+				},
+				{
+					"name" : "sioc",
+					"strict" : false
+				},
+				{
+					"name" : "siod",
+					"strict" : false
+				},
+				{
+					"name" : "r[0]",
+					"strict" : false
+				},
+				{
+					"name" : "r[1]",
+					"strict" : false
+				},
+				{
+					"name" : "r[2]",
+					"strict" : false
+				},
+				{
+					"name" : "r[3]",
+					"strict" : false
+				},
+				{
+					"name" : "r[4]",
+					"strict" : false
+				},
+				{
+					"name" : "g[0]",
+					"strict" : false
+				},
+				{
+					"name" : "g[1]",
+					"strict" : false
+				},
+				{
+					"name" : "g[2]",
+					"strict" : false
+				},
+				{
+					"name" : "g[3]",
+					"strict" : false
+				},
+				{
+					"name" : "g[4]",
+					"strict" : false
+				},
+				{
+					"name" : "g[5]",
+					"strict" : false
+				},
+				{
+					"name" : "b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ras_n",
+					"strict" : false
+				},
+				{
+					"name" : "cas_n",
+					"strict" : false
+				},
+				{
+					"name" : "we_n",
+					"strict" : false
+				},
+				{
+					"name" : "dqm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dqm[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_addr[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ba[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ba[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tft_sck",
+					"strict" : false
+				},
+				{
+					"name" : "tft_sdi",
+					"strict" : false
+				},
+				{
+					"name" : "tft_dc",
+					"strict" : false
+				},
+				{
+					"name" : "tft_reset",
+					"strict" : false
+				},
+				{
+					"name" : "tft_cs",
+					"strict" : false
+				},
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk50",
+					"strict" : false
+				},
+				{
+					"name" : "PCLK_cam",
+					"strict" : false
+				},
+				{
+					"name" : "HREF_cam",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_cam[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

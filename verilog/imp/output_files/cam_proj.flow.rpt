@@ -1,0 +1,141 @@
+Flow report for cam_proj
+Mon Nov 11 13:47:06 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Mon Nov 11 13:47:06 2019       ;
+; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                      ; cam_proj                                    ;
+; Top-level Entity Name              ; cam_proj_top                                ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE22F17C6                                ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 6,055 / 22,320 ( 27 % )                     ;
+;     Total combinational functions  ; 5,588 / 22,320 ( 25 % )                     ;
+;     Dedicated logic registers      ; 2,428 / 22,320 ( 11 % )                     ;
+; Total registers                    ; 2428                                        ;
+; Total pins                         ; 87 / 154 ( 56 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 370,095 / 608,256 ( 61 % )                  ;
+; Embedded Multiplier 9-bit elements ; 25 / 132 ( 19 % )                           ;
+; Total PLLs                         ; 2 / 4 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/11/2019 13:45:21 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; cam_proj            ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 273105149868451.157346912110676        ; --            ; --           ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --           ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim (Verilog)                     ; <None>        ; --           ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --           ; eda_simulation ;
+; ENABLE_SIGNALTAP                    ; Off                                    ; --            ; --           ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --           ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --           ; --             ;
+; MISC_FILE                           ; pll_bb.v                               ; --            ; --           ; --             ;
+; MISC_FILE                           ; pll.ppf                                ; --            ; --           ; --             ;
+; MISC_FILE                           ; pll_for_disp_bb.v                      ; --            ; --           ; --             ;
+; MISC_FILE                           ; pll_for_disp.ppf                       ; --            ; --           ; --             ;
+; MISC_FILE                           ; fifo_big_bb.v                          ; --            ; --           ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; cam_proj_top ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; cam_proj_top ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; cam_proj_top ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --           ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --           ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --           ; --             ;
+; TOP_LEVEL_ENTITY                    ; cam_proj_top                           ; cam_proj      ; --           ; --             ;
+; USE_SIGNALTAP_FILE                  ; output_files/stp1.stp                  ; --            ; --           ; --             ;
+; VERILOG_INPUT_VERSION               ; SystemVerilog_2005                     ; Verilog_2001  ; --           ; --             ;
+; VERILOG_MACRO                       ; nornal=1                               ; --            ; --           ; --             ;
+; VERILOG_SHOW_LMF_MAPPING_MESSAGES   ; Off                                    ; --            ; --           ; --             ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:38     ; 1.0                     ; 4866 MB             ; 00:00:49                           ;
+; Fitter                    ; 00:00:41     ; 1.1                     ; 5688 MB             ; 00:01:08                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4700 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.4                     ; 4860 MB             ; 00:00:07                           ;
+; EDA Netlist Writer        ; 00:00:10     ; 1.0                     ; 4719 MB             ; 00:00:06                           ;
+; Total                     ; 00:01:38     ; --                      ; --                  ; 00:02:12                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; SEDOY            ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; SEDOY            ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; SEDOY            ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; SEDOY            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; SEDOY            ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off cam_proj -c cam_proj
+quartus_fit --read_settings_files=off --write_settings_files=off cam_proj -c cam_proj
+quartus_asm --read_settings_files=off --write_settings_files=off cam_proj -c cam_proj
+quartus_sta cam_proj -c cam_proj
+quartus_eda --read_settings_files=off --write_settings_files=off cam_proj -c cam_proj
+
+
+

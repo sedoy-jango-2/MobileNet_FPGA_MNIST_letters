@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 11 13:46:42 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : cam_proj
+Top-level Entity Name : cam_proj_top
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 6,055 / 22,320 ( 27 % )
+    Total combinational functions : 5,588 / 22,320 ( 25 % )
+    Dedicated logic registers : 2,428 / 22,320 ( 11 % )
+Total registers : 2428
+Total pins : 87 / 154 ( 56 % )
+Total virtual pins : 0
+Total memory bits : 370,095 / 608,256 ( 61 % )
+Embedded Multiplier 9-bit elements : 25 / 132 ( 19 % )
+Total PLLs : 2 / 4 ( 50 % )
